@@ -8,11 +8,14 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
-
+gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-sass'
-
+gem 'select2-rails'
 gem 'devise'
-
+gem 'nested_form_fields'
+gem 'ckeditor'
+gem 'ranked-model'
+gem 'jquery-ui-rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -39,7 +42,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'rails-i18n'
+gem 'devise-i18n'
 group :development, :test do
   gem 'rspec-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

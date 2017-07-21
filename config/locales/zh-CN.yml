@@ -1,0 +1,21 @@
+"zh-CN":
+  registration:
+    status:
+      pending: 報名尚未成功
+      confirmed: 報名成功
+  bulk_update: 批次編輯
+  bulk_delete: 批次刪除
+  event:
+    status:
+      draft: 草稿
+      public: 公開
+      private: 私密
+  activerecord:
+    attributes:
+      event:
+        name: "活動名稱"
+        description: "描述"
+  hello: "親～ %{name} 你好:"
+  event_list: 活動列表
+  admin:
+    event_list: 活動列表管理
